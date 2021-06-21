@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Pedidos.DAL
 {
-    public class Contexto : DbContext
+    public class Contexto : DbContext 
     {
         public DbSet<Suplidores> Suplidores { get; set; }
         public DbSet<Productos> Productos { get; set; }

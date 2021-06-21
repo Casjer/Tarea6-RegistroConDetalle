@@ -14,6 +14,6 @@ namespace Pedidos.Models
         public string Descripcion { get; set; }
         public decimal Costo { get; set; }
         [Range(minimum: 1, maximum: 10000000)]
-        public decimal Inventario { get; set; }
+        public decimal Inventario { get; set; } 
     }
 }

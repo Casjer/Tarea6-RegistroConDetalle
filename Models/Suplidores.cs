@@ -11,6 +11,6 @@ namespace Pedidos.Models
         [Key]
         public int SuplidorId { get; set; }
         [Required]
-        public string Nombres { get; set; }
+        public string Nombres { get; set; } 
     }
 }

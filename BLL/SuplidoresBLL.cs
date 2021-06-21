@@ -17,7 +17,7 @@ namespace Pedidos.BLL
 
             try
             {
-                Lista = contexto.Suplidores.Where(suplidores).ToList();
+                Lista = contexto.Suplidores.Where(suplidores).ToList(); 
             }
             catch
             {

@@ -10,7 +10,7 @@ namespace Pedidos.BLL
 {
     public class ProductosBLL
     {
-        public static Productos Buscar(int id)
+        public static Productos Buscar(int id) 
         {
             Contexto contexto = new Contexto();
             Productos productos;
