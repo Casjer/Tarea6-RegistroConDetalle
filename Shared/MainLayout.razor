@@ -1,0 +1,19 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar" style="background: linear-gradient(to bottom, #808080 0%, #808080 100%)">
+        <center><img src="https://image.freepik.com/free-vector/fresh-fruit-logo-design-mascot_157713-4.jpg" height="100" style="margin-top: 10px" /></center>
+        <NavMenu />
+    </div>
+
+    <div class="main">
+        <div class="top-row px-4">
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        </div>
+
+        <div class="content px-4">
+            @Body
+            <BlazoredToasts/>
+        </div>
+    </div>
+</div>
