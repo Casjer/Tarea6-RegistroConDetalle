@@ -16,6 +16,7 @@ namespace Pedidos.Models
         public decimal Costo { get; set; }
 
         public int ProductoId { get; set; }
+        public Productos Productos { get; set; }
 
     }
 }

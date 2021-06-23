@@ -15,6 +15,8 @@ namespace Pedidos.Models
         public DateTime Fecha { get; set; }
         [Required(ErrorMessage = "Debe debe agreglar un suplidor obligatorio.")]
         public int SuplidorId { get; set; }
+        public Suplidores Suplidores { get; set; }
+
         public decimal Monto { get; set; }
 
         [ForeignKey("OrdenId")]
