@@ -18,5 +18,7 @@ namespace Pedidos.Models
         public int ProductoId { get; set; }
         public Productos Productos { get; set; }
 
+
+
     }
 }

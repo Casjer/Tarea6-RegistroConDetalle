@@ -158,6 +158,7 @@ namespace Pedidos.BLL
 
             try
             {
+                
                 ordenes = contexto.Ordenes.Where(o => o.OrdenId == id).Include(o => o.OrdenesDetalle). FirstOrDefault();
                                      
             }
